@@ -24,7 +24,7 @@ const main = async () => {
                 "amount0In": await convertDecimalsFrom(await getToken0(), Number(amount0)),
                 "amount1In": await convertDecimalsFrom(await getToken1(), Number(amount1)),
                 "to": recipient,
-                "price:": sqrtPriceToPrice(Number(sqrtPriceX96))
+                "price:": await sqrtPriceToPrice(Number(sqrtPriceX96))
             }
         )
         // console.log('Swap', sender, amount0In, amount1In, amount0Out, amount1Out, "to", to)
