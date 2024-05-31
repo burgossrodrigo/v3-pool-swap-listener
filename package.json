@@ -1,0 +1,21 @@
+{
+  "name": "v3-pool-swap-listener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typechain/ethers-v6": "^0.5.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1",
+    "mongoose": "^8.4.0",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.4.5"
+  }
+}
